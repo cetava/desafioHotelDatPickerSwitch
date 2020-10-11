@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA24ECCD2530A01400C39E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24ECCC2530A01400C39E79 /* AppDelegate.swift */; };
+		CA24ECCF2530A01400C39E79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24ECCE2530A01400C39E79 /* SceneDelegate.swift */; };
+		CA24ECD12530A01400C39E79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24ECD02530A01400C39E79 /* ViewController.swift */; };
+		CA24ECD42530A01400C39E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA24ECD22530A01400C39E79 /* Main.storyboard */; };
+		CA24ECD62530A01800C39E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA24ECD52530A01800C39E79 /* Assets.xcassets */; };
+		CA24ECD92530A01800C39E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA24ECD72530A01800C39E79 /* LaunchScreen.storyboard */; };
+		CA24ECE22530A05700C39E79 /* HotelRJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24ECE12530A05700C39E79 /* HotelRJ.swift */; };
+		CA24ECE52530A14D00C39E79 /* ParqueFlores.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24ECE42530A14D00C39E79 /* ParqueFlores.swift */; };
+		CA24ECE82530A16500C39E79 /* JardimBotanico.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24ECE72530A16500C39E79 /* JardimBotanico.swift */; };
+		CA24ECEB2530A18100C39E79 /* MarAtlantico.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24ECEA2530A18100C39E79 /* MarAtlantico.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA24ECC92530A01400C39E79 /* HotelDatPickerSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelDatPickerSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA24ECCC2530A01400C39E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA24ECCE2530A01400C39E79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA24ECD02530A01400C39E79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA24ECD32530A01400C39E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA24ECD52530A01800C39E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA24ECD82530A01800C39E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA24ECDA2530A01800C39E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA24ECE12530A05700C39E79 /* HotelRJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelRJ.swift; sourceTree = "<group>"; };
+		CA24ECE42530A14D00C39E79 /* ParqueFlores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParqueFlores.swift; sourceTree = "<group>"; };
+		CA24ECE72530A16500C39E79 /* JardimBotanico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JardimBotanico.swift; sourceTree = "<group>"; };
+		CA24ECEA2530A18100C39E79 /* MarAtlantico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarAtlantico.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA24ECC62530A01400C39E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA24ECC02530A01400C39E79 = {
+			isa = PBXGroup;
+			children = (
+				CA24ECCB2530A01400C39E79 /* HotelDatPickerSwitch */,
+				CA24ECCA2530A01400C39E79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA24ECCA2530A01400C39E79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA24ECC92530A01400C39E79 /* HotelDatPickerSwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA24ECCB2530A01400C39E79 /* HotelDatPickerSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				CA24ECCC2530A01400C39E79 /* AppDelegate.swift */,
+				CA24ECCE2530A01400C39E79 /* SceneDelegate.swift */,
+				CA24ECD02530A01400C39E79 /* ViewController.swift */,
+				CA24ECD22530A01400C39E79 /* Main.storyboard */,
+				CA24ECE12530A05700C39E79 /* HotelRJ.swift */,
+				CA24ECE42530A14D00C39E79 /* ParqueFlores.swift */,
+				CA24ECE72530A16500C39E79 /* JardimBotanico.swift */,
+				CA24ECEA2530A18100C39E79 /* MarAtlantico.swift */,
+				CA24ECD52530A01800C39E79 /* Assets.xcassets */,
+				CA24ECD72530A01800C39E79 /* LaunchScreen.storyboard */,
+				CA24ECDA2530A01800C39E79 /* Info.plist */,
+			);
+			path = HotelDatPickerSwitch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA24ECC82530A01400C39E79 /* HotelDatPickerSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA24ECDD2530A01800C39E79 /* Build configuration list for PBXNativeTarget "HotelDatPickerSwitch" */;
+			buildPhases = (
+				CA24ECC52530A01400C39E79 /* Sources */,
+				CA24ECC62530A01400C39E79 /* Frameworks */,
+				CA24ECC72530A01400C39E79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotelDatPickerSwitch;
+			productName = HotelDatPickerSwitch;
+			productReference = CA24ECC92530A01400C39E79 /* HotelDatPickerSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA24ECC12530A01400C39E79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CA24ECC82530A01400C39E79 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CA24ECC42530A01400C39E79 /* Build configuration list for PBXProject "HotelDatPickerSwitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA24ECC02530A01400C39E79;
+			productRefGroup = CA24ECCA2530A01400C39E79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA24ECC82530A01400C39E79 /* HotelDatPickerSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA24ECC72530A01400C39E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA24ECD92530A01800C39E79 /* LaunchScreen.storyboard in Resources */,
+				CA24ECD62530A01800C39E79 /* Assets.xcassets in Resources */,
+				CA24ECD42530A01400C39E79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA24ECC52530A01400C39E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA24ECE22530A05700C39E79 /* HotelRJ.swift in Sources */,
+				CA24ECD12530A01400C39E79 /* ViewController.swift in Sources */,
+				CA24ECCD2530A01400C39E79 /* AppDelegate.swift in Sources */,
+				CA24ECCF2530A01400C39E79 /* SceneDelegate.swift in Sources */,
+				CA24ECE52530A14D00C39E79 /* ParqueFlores.swift in Sources */,
+				CA24ECE82530A16500C39E79 /* JardimBotanico.swift in Sources */,
+				CA24ECEB2530A18100C39E79 /* MarAtlantico.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA24ECD22530A01400C39E79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA24ECD32530A01400C39E79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA24ECD72530A01800C39E79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA24ECD82530A01800C39E79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA24ECDB2530A01800C39E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA24ECDC2530A01800C39E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA24ECDE2530A01800C39E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QQ8S647LF;
+				INFOPLIST_FILE = HotelDatPickerSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cetava.HotelDatPickerSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA24ECDF2530A01800C39E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QQ8S647LF;
+				INFOPLIST_FILE = HotelDatPickerSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cetava.HotelDatPickerSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA24ECC42530A01400C39E79 /* Build configuration list for PBXProject "HotelDatPickerSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA24ECDB2530A01800C39E79 /* Debug */,
+				CA24ECDC2530A01800C39E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA24ECDD2530A01800C39E79 /* Build configuration list for PBXNativeTarget "HotelDatPickerSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA24ECDE2530A01800C39E79 /* Debug */,
+				CA24ECDF2530A01800C39E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA24ECC12530A01400C39E79 /* Project object */;
+}

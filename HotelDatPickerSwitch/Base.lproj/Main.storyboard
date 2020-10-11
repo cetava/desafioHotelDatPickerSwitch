@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HotelDatPickerSwitch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data de Check in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IC-Qv-UgC">
+                                <rect key="frame" x="142" y="57" width="130" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="F0B-R0-HBt">
+                                <rect key="frame" x="0.0" y="102" width="414" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="hJu-Qt-xUF"/>
+                                </constraints>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data de Check out" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kO-Vd-GVL">
+                                <rect key="frame" x="136" y="288" width="142" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="0Ne-Ne-hr8">
+                                <rect key="frame" x="0.0" y="333" width="414" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="xNC-p4-uFK"/>
+                                </constraints>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cleinte FIdelidade" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YV6-K2-NJD">
+                                <rect key="frame" x="139" y="545" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="f9w-kv-021">
+                                <rect key="frame" x="183" y="590" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ecz-wt-bjY">
+                                <rect key="frame" x="163" y="671" width="88" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Melhor Hotel"/>
+                                <connections>
+                                    <action selector="actionButtonBestHotel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="93v-8T-Inx"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUB-nI-FmM">
+                                <rect key="frame" x="126" y="762" width="161" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0IC-Qv-UgC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1KQ-ma-Sd5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bUB-nI-FmM" secondAttribute="trailing" constant="127" id="28h-CJ-EQa"/>
+                            <constraint firstItem="9kO-Vd-GVL" firstAttribute="top" secondItem="F0B-R0-HBt" secondAttribute="bottom" constant="86" id="B3C-DM-iAr"/>
+                            <constraint firstItem="0Ne-Ne-hr8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Kmd-o4-yjt"/>
+                            <constraint firstItem="F0B-R0-HBt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="M1V-bu-TdP"/>
+                            <constraint firstItem="F0B-R0-HBt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="OlF-EZ-Eh1"/>
+                            <constraint firstItem="9kO-Vd-GVL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cqL-oG-sP7"/>
+                            <constraint firstItem="0Ne-Ne-hr8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dP7-xB-tW5"/>
+                            <constraint firstItem="0Ne-Ne-hr8" firstAttribute="top" secondItem="9kO-Vd-GVL" secondAttribute="bottom" constant="24" id="dhq-Jm-nnx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bUB-nI-FmM" secondAttribute="bottom" constant="100" id="hbx-wF-eL9"/>
+                            <constraint firstItem="0IC-Qv-UgC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="jkB-A5-7iY"/>
+                            <constraint firstItem="bUB-nI-FmM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="sdM-nC-83O"/>
+                            <constraint firstItem="F0B-R0-HBt" firstAttribute="top" secondItem="0IC-Qv-UgC" secondAttribute="bottom" constant="24" id="suH-dP-Qlf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="checkInDatePicker" destination="F0B-R0-HBt" id="1kQ-RM-H2n"/>
+                        <outlet property="checkOutDatePicker" destination="0Ne-Ne-hr8" id="Zld-Oz-2z1"/>
+                        <outlet property="labelBestHotel" destination="bUB-nI-FmM" id="bRT-id-fcZ"/>
+                        <outlet property="rewardSwitch" destination="f9w-kv-021" id="TPs-dl-uKg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-610.14492753623188" y="75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
